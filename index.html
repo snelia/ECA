@@ -14,57 +14,46 @@
 
 	:root {
 		--dark-amethyst: #251351ff;
-		--powder-blue: #aec5ebff;
-		--golden-sand: #d2d68dff;
-		--taupe: #81726aff;
-		--taupe-grey: #68534dff;
+		--umw-darkblue: #002d61;
+		--umw-midblue: #0067a2;
+		--umw-lightblue: #8dc9f7;
 	}
 
 	body {
 		font-family: Verdana, Arial, sans-serif;
 		text-align: left;
 		color: var(--dark-amethyst);
+		margin: auto;
 		/*background: linear-gradient(180deg, var(--golden-sand) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);*/
 	}
 
-	hr {
-		color: var(--taupe);
-	}
-
-/*	h1 {
-		padding-top: 1rem;
-		padding-bottom: 1rem;
-		font-family: "_", serif;
-	} */
-
 	.row, .cell {
-		border: 1px solid var(--taupe-grey);
+		border: 1px solid var(--umw-midblue);
 		text-align: left;
 	}
 
+	.cell{
+		padding-top: 1rem;
+	}
+
+
 /*BORDER IN COMMENT ABOVE IS TEMPORARY TO HELP WITH VISUALIZATION*/
 
-	.header {
+	h1, h2 {
 		font-family: Times New Roman, serif;
 		font-weight: bolder;
 		text-align: center;
 	}
 
 	h2 {
-		background-color: var(--powder-blue);
+		background-color: var(--umw-midblue);
+		color: #FFFFFF;
 		border-radius: 1rem;
 	}
 
-	.author {
-		font-size: 0.75rem;
+	p, li {
+		font-size: 1rem;
 	}
-
-	/* Why does "author" have a huge space below it
-	(or is it title with a huge space above it)?
-	I tried making `line-height: 1.0` for both, but
-	it didn't solve the issue. I'm perplexed. */
-
-	/* Change text size to be % of viewport. It's too large on MD-XS layouts. */
 
 	.intro{
 		padding-left: 1rem;
@@ -84,38 +73,29 @@
 
 	-->
 	
-	<h1 class="header">Eastern Practice in the Western Wellness Industry</h1>
+	<h1>Eastern Practice in the Western Wellness Industry</h1>
 <!-- Numbers in a grid system are the number of columns. By itself, "col" defaults to "auto" proportions. -->
 
 	<p class="intro">Hello! My name is Celia Golden. Thank you for scanning the QR code to check out my online poster! My contact information was on the poster, but I also have some helpful links that can get you in touch with me!</p>
 
-	<button type="submit" class="btn btn-primary" href="https://docs.google.com/spreadsheets/d/1-dIbeXb18doNimvfgaQtBcg18EqA3tAG58Ib3TpPnkE/edit" role="button">Spreadsheet</button>
+	<a class="btn btn-primary" href="https://docs.google.com/spreadsheets/d/1-dIbeXb18doNimvfgaQtBcg18EqA3tAG58Ib3TpPnkE/edit" role="button">Spreadsheet</a>
+	<a class="btn btn-primary" href="https://www.linkedin.com/in/cgolden2/" role="button">My LinkedIn</a>
 
 	<div class="container text-center">
 
 	  	<div class="row">
 		  	
-		  	<div class="cell col-xl-3 col-lg-3 col-md-12 col-sm-12">
+		  	<div class="cell col-xl-6 col-lg-6 col-md-12 col-sm-12">
 		  	
-		  		<h2 class="header">Background</h2>
-		  		<br>
-		  		<p>paste here</p>
+		  		<h2>Abstract</h2>
+		  		<p>As the popularity rises for global and domestic wellness retreats as tourist destinations, their predominantly Western audience invites a particularly American offshoot of Orientalism that commodifies Eastern practices into “mindfulness” rather than acknowledging their origins of medicine and religion. This paper examines the catalog of Miraval Berkshires and its treatment of Eastern practices within the public-facing material of wellness retreats. 55.6% of the specialists at the Miraval Berkshires employ names of Eastern techniques, and 74% of those offerings are restricted to paid and private sessions to evoke ideas of exoticism and exclusivity. The word “ancient” is disproportionately leveled against the Eastern practices in the guest guide to further cement them as static relics of the past. This trend confirms the major role the wellness industry has in representing Eastern practices and illustrates the importance of challenging these misnomers of traditions.</p>
 		  	
 		  	</div>
 
 		  	<div class="cell col-xl-6 col-lg-6 col-md-12 col-sm-12">
 		  	
-		  		<h2 class="header">Abstract</h2>
-		  		<br>
-		  		<p>As the popularity rises for global and domestic wellness retreats as tourist destinations, their predominantly Western audience invites a particularly American offshoot of Orientalism that exoticizes and commodifies Eastern practices into “mindfulness” rather than acknowledging their origins of medicine and religion. This paper examines the catalog of Miraval Berkshires as a demonstration of Eastern practices in wellness retreats. More than half of the specialists employ names of Eastern techniques to establish credibility for the retreat by invoking tradition and to exoticize the practices using the word “ancient.” This trend confirms the major role the wellness industry has in representing Eastern practices and illustrates the importance of challenging these misnomers of traditions.</p>
-		  	
-		  	</div>
-
-		  	<div class="cell col-xl-3 col-lg-3 col-md-12 col-sm-12">
-		  	
-		  		<h2 class="header">Objectives</h2>
-		  		<br>
-		  		<p>paste here</p>
+		  		<h2>Introduction</h2>
+		  		<p>Health and wellness retreats offer both physical and mental ways to improve health, and some tap into Eastern practices as a means to make these improvements, particularly in American retreats. Miraval Berkshires is one of these facilities: the property is a Hyatt retreat promoting luxury mindfulness located in Lenox, Massachusetts. Miraval Berkshires specialists invoke the names of Eastern techniques to bolster both exoticism and credibility, then add fees to further restrict these practices into the category of novelty. In this paper, I use “Eastern” and “Western” as placeholders for the sake of concise communication: “Eastern” in this case refers to Indus River Valley religions and the aesthetics of India, China, Japan, Thailand, Nepal, and Tibet. Conversely, I use “Western” to denote white audiences and creators of wellness retreats, which are primarily in Western Europe and the United States. For the practices themselves, I will use “non-Eastern,” as many do not invoke any particular Western themes, and I want to avoid framing “West” as a default.</p>
 		  	
 		  	</div>
 		
@@ -123,58 +103,63 @@
 
 		<div class="row">
 		  	
-		  	<div class="cell col-xl-3 col-lg-3 col-md-12 col-sm-12">
+		  	<div class="cell col-xl-5 col-lg-5 col-md-12 col-sm-12">
 		  	
-		  		<h2 class="header">Methods</h2>
-		  		<br>
-		  		<p>paste here</p>
-		  	
-		  	</div>
-
-		  	<div class="cell col-xl-3 col-lg-3 col-md-12 col-sm-12">
-		  	
-		  		<h2 class="header">Results</h2>
-		  		<br>
-		  		<p>paste here</p>
+		  		<h2>Methods</h2>
+		  		<p>I performed inductive qualitative coding on the 335 offerings in the Miraval Berkshires 2025 October–December Guest Guide by identifying techniques, concepts, and terms that originated in Asia. For each Eastern-aligned activity, I provided rationale for “Eastern” designations and cited indicative phrases from the guest guide when necessary. I took note of fees associated with each activity, as well as whether they could only be accessed through a private session. Following my coding, I recorded the frequency of two terms used to refer to the Eastern activities in the guest guide, “ancient” and “traditional,” as they appeared the most often. I compared the frequency of uses each of them had in Eastern and non-Eastern activities.</p>
 		  	
 		  	</div>
 
-		  	<div class="cell col-xl-6 col-lg-6 col-md-12 col-sm-12">
+		  	<div class="cell col-xl-7 col-lg-7 col-md-12 col-sm-12">
 		  	
-		  		<h2 class="header">Discussion</h2>
-		  		<br>
-		  		<p>paste here</p>
+		  		<h2>Results</h2>
+		  		<p>Of the 336 activities in the guest guide, Miraval Berkshires utilized the names of Eastern regions and practices for 58 of them, or 17.26% of all activities at the retreat. Within this small portion of the catalog, “ancient” was used 379% more often to describe Eastern practices, and “tradition” or “traditional” 105% more often, as shown above. This figure was calculated by dividing the frequency statistics of Eastern and non-Eastern targets of the terms. Conversely, required fees were only 2.04% more frequent for Eastern activities, and required private sessions only 4.55% more frequent. The guest guide separates activities based on their exclusiveness: included (no additional charge), expanded offerings (additional charge), private sessions (additional charge and requires registration through an online booking portal). Only two events have a second charge associated with them, as they are expanded offerings with available add-ons: “Akashic Soul Record Reading (with Energy Work for additional fee)” and “Chakra Oracle Reading (with Sound Healing add-on for additional fee).”<sup>3</sup></p>
+		  	
+		  	</div>
+
+		</div>
+
+		<div class="row">
+
+		  	<div class="cell col-xl-7 col-lg-7 col-md-12 col-sm-12">
+		  	
+		  		<h2>Discussion</h2>
+		  		<p>Despite constituting only 17.26% of the resort’s activities, over half of the specialists (15/27) in the Miraval Berkshires October–December 2025 guest guide have at least one offering that is grounded in an Eastern practice. The demand for experience in facilitating Eastern practices signals their popularity among the target demographic of wellness retreats, which is middle-aged or older women from the U.S. or northern European countries<sup>5</sup> with an above average household income, married or divorced, and highly educated.<sup>6</sup> Eastern practices and cultural icons provide credence to wellness retreats, as American Orientalism posits the East as a “domain of spirituality”<sup>4</sup> and reduces religious or medicinal practices down to mindfulness exercises.<sup>2</sup> Additionally, the factors of financial barriers and privacy, both of which are slightly more prevalent among Eastern activities, attract the financially stable demographics of wellness retreats, as well as reinforcing the perception of Eastern practices as exotic and exclusive. Compounding these effects, the greater frequency of the word “ancient” towards Eastern practices frames them as relics of the past—the term only denotes age, while “tradition/al” reflects transmission and adaptation through generations. Defining Eastern practices primarily with “ancient,” as the more passive term of the two, strips them of their agency and adaptive nature and transforms them into exotic commodities.<sup>1</sup></p>
+		  	
+		  	</div>
+		  	
+		  	<div class="cell col-xl-5 col-lg-5 col-md-12 col-sm-12">
+		  	
+		  		<h2>Conclusion</h2>
+		  		<p>Miraval Berkshires utilizes the names of Asian countries, religious practices, and medicinal treatments to market the location as an exclusive novelty. The retreat invokes the foundations of American Orientalism by centering Eastern practices around mindfulness, which leverages the assumed position of the East as the heart of spirituality. This strategy, alongside the disproportionate use of the term “ancient,” bolsters the credibility of its health benefits by invoking long-standing traditions and emphasizing their longevity. Overall, Miraval Berkshires creates a focused environment for people to engage in health and wellness activities, but the overwhelming presence of Asian names and aesthetics communicates the ways in which the Western wellness industry tends to conflate Eastern practices with mindfulness and spirituality.</p>
 		  	
 		  	</div>
 		
 		</div>
 
 		<div class="row">
+
+		  	<div class="cell col-xl-8 col-lg-8 col-md-12 col-sm-12">
 		  	
-		  	<div class="cell col-xl-4 col-lg-4 col-md-12 col-sm-12">
-		  	
-		  		<h2 class="header">Conclusion</h2>
-		  		<br>
-		  		<p>paste here</p>
+		  		<h2>References</h2>
+		  		<ol>
+		  			<li>Antony, M. G. (2018). That’s a stretch: Reconstructing, rearticulating, and commodifying yoga. <em>Frontiers in Communication, 3</em>(47). <a href="https://doi.org/10.3389/fcomm.2018.00047">https://doi.org/10.3389/fcomm.2018.00047</a>.</li>
+		  			<li>Barendregt, B. (2011). Tropical spa cultures, eco-chic, and the complexities of new Asianism. In K. Van Dijk & J. G. Taylor (Eds.), <em>Cleanliness and culture: Indonesian histories, 272</em>, 159–192. Brill. <a href="http://www.jstor.org/stable/10.1163/j.ctvbnm4n9.10">http://www.jstor.org/stable/10.1163/j.ctvbnm4n9.10</a>.</li>
+		  			<li>Guest Guide: Miraval Berkshires (2025, September 8). Hyatt. <a href="https://issuu.com/miravalresorts/docs/monthlyguide2024_berkshires_decq4_finalissu">https://issuu.com/miravalresorts/docs/monthlyguide2024_berkshires_decq4_finalissu</a>.</li>
+		  			<li>Islam, N. (2012). New age Orientalism: Ayurvedic ‘wellness and spa culture.’ <em>Health Sociology Review, 21</em>(2), 220–231. <a href="https://doi.org/10.5172/hesr.2012.21.2.220">https://doi.org/10.5172/hesr.2012.21.2.220</a>.</li>
+		  			<li>Lehto, X., Brown, S., Chen, Y., & Morrison, A. (2015). Yoga tourism as a niche within the wellness tourism market. <em>Tourism Recreation Research, 31</em>(1), 25–35. <a href="https://doi.org/10.1080/02508281.2006.11081244">https://doi.org/10.1080/02508281.2006.11081244</a>.</li>
+		  			<li>Trihas, N., Tsilimpokos, K., Gkouri, N. (2024) Exploring yoga tourists’ profile, motivations and behaviour. <em>Journal On Tourism & Sustainability, 7</em>(1 & 2), 108–116. <a href="https://doi.org/10.5281/zenodo.12599223">https://doi.org/10.5281/zenodo.12599223</a>.</li>
+		  		</ol>
 		  	
 		  	</div>
 
 		  	<div class="cell col-xl-4 col-lg-4 col-md-12 col-sm-12">
 		  	
-		  		<h2 class="header">References</h2>
-		  		<br>
-		  		<p>paste here</p>
-		  	
-		  	</div>
-
-		  	<div class="cell col-xl-4 col-lg-4 col-md-12 col-sm-12">
-		  	
-		  		<h2 class="header">Acknowledgments</h2>
-		  		<br>
+		  		<h2>Acknowledgments</h2>
 		  		<p>Elizabeth A. Johnson-Young, Zach Whalen, University of Mary Washington, Khatib Program in Religion and Dialogue</p>
 		  	
 		  	</div>
-		
+
 		</div>
 		      
 	</div>
